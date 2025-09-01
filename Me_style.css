@@ -1,0 +1,33 @@
+body {
+  background-image: url("./images/images.jpeg");
+  background-size: cover;   
+  background-repeat: no-repeat; 
+  background-position: center; 
+}
+section {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.About_me {
+    width: 300px;
+    height: 500px;
+    border-radius: 25px;
+    background-color: white;
+    text-align: center;
+}
+#Education {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 35px;
+    color: rgba(21, 16, 16, 0.831);
+}
+#Skills {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 45px;
+    color: rgba(21, 16, 16, 0.831);
+}
+#Experience {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 45px;
+    color: rgba(21, 16, 16, 0.831);
+}

@@ -1,32 +1,32 @@
-// Target container
+
 const content = document.getElementById("dynamicContent");
 
-// Create Title
+
 const title1 = document.createElement("h1");
 title1.textContent = "My";
 const title2 = document.createElement("h1");
 title2.textContent = "Portfolio";
 
-// Create Paragraph
-const paragraph = document.createElement("p");
-paragraph.textContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.";
 
-// Create Buttons
+const paragraph = document.createElement("p");
+paragraph.textContent = "This is Rodney Swaji's Portfolio created on August 2025 during a Moringa School Lab";
+
+
 const buttonContainer = document.createElement("div");
 buttonContainer.classList.add("buttons");
 
-const exploreBtn = document.createElement("button");
-exploreBtn.classList.add("explore");
-exploreBtn.textContent = "Explore Now";
+const likebtn = document.createElement("button");
+likebtn.classList.add("like");
+likebtn.textContent = "LIKE ?";
 
-const videoBtn = document.createElement("button");
-videoBtn.classList.add("video");
-videoBtn.textContent = "Play Video";
+const hatebtn = document.createElement("button");
+hatebtn.classList.add("hate");
+hatebtn.textContent = "HATE ?";
 
-buttonContainer.appendChild(exploreBtn);
-buttonContainer.appendChild(videoBtn);
+buttonContainer.appendChild(likebtn);
+buttonContainer.appendChild(hatebtn);
 
-// Append to container
+
 content.appendChild(title1);
 content.appendChild(title2);
 content.appendChild(paragraph);
