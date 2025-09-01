@@ -52,7 +52,7 @@ nav ul li a:hover {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 15px;
+  border-radius: 13px;
 }
 .hero-img img:hover {
     opacity: 0.8;
